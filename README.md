@@ -12,14 +12,18 @@ Steps to produce
 3- copy .env.example and rename it to be .env
 
 4- update .env file replace following variables with your new created database variables
+
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
 DB_DATABASE=laravel
 DB_USERNAME=root
 DB_PASSWORD=
+
 5- run command php artisan migrate to implement database tables
+
 6- run command php artisan serv to start your server environment with <<localhost/port>>
+
 7- please check next endpoints 
   a. upload csv file endpoint : <<localhost/port>>/api/products/import
   METHOD : POST
