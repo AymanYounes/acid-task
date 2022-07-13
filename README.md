@@ -6,8 +6,11 @@ it is a laravel project with simple installing steps
 Steps to produce
 
 1- clone project to new folder
+
 2- create empty database 
+
 3- copy .env.example and rename it to be .env
+
 4- update .env file replace following variables with your new created database variables
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
